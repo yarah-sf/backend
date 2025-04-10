@@ -2,5 +2,5 @@
 
 let altura = 1.62
 let peso = 49.50
-let imc = peso/(altura * altura);
-console.log("O IMC é:", imc);
+let imc = (peso/(altura * altura)).toFixed(2);
+console.log("O IMC é: " + imc);
