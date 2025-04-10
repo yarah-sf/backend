@@ -2,4 +2,5 @@
 
 let nome = "Yarah"
 let idade = 16
-console.log("Olá, meu nome é", nome, "e eu tenho", idade, "anos");
+console.log("Olá, meu nome é " + nome + " e eu tenho " + idade + " anos");  //concatenação
+console.log(`Olá, meu nome é ${nome} e eu tenho ${idade} anos`) //interpolação
