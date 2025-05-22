@@ -24,4 +24,6 @@ switch (dia) {
     case 7:
         console.log('Sabado');
         break;
+    default:
+        console.log('Valor Inválido')
 }
