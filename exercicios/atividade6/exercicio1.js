@@ -1,8 +1,8 @@
-//let frase = 'ghjjhg'
+let palavra = 'ghjjhg';
 
 //declaração de função
-function maiusculas (frase) {
-    return `${frase.toUppercase()}`
+function Maiusculas (palavra) {
+    return `Frase: ${(palavra).toUpperCase()}`
     
 }
 
@@ -15,5 +15,5 @@ const cxAlta = function(frase) {
 const tdmaiusculo = (frase) => frase.toUppercase;
 console.log(tdmaiusculo(frase));*/
 
-let maior = maiusculas('yfghjkhgf')
-console.log(maior)
+//let maior = maiusculas('yfghjkhgf')
+console.log(Maiusculas(palavra))
